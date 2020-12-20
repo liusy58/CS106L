@@ -26,6 +26,9 @@ const std::vector<std::pair<std::string, int> > vec {
 };
 
 const std::vector<std::string> keys {"A", "B", "C", "Not found"};
+
+
+
 template <typename Map1, typename Map2> bool check_map_equal(Map1& map, Map2& answer) {
     if (answer.empty() != map.empty() || answer.size() != map.size()) return false;
 
@@ -186,13 +189,13 @@ void F_custom_hash_function() {
     */
     using K = int;
     using V = char;
-    auto identity_shifted = [](const K& key) {
-       return (key * 43037 + 52081) % 79229;
-    };
 
     // hey, didn't you use this from assignment 1?
     // now you know what the priority queue decltype comes from!
-    HashMap<K, V, decltype(identity_shifted)> map(75, identity_shifted);
+    auto identity_shifted = [](const K& key) {
+        return (key * 43037 + 52081) % 79229;
+    };
+    HashMap<K, V, decltype(identity_shifted) > map(75, identity_shifted);
     std::map<K, V> answer;
 
     for (int i = 0; i < 50; ++i) {

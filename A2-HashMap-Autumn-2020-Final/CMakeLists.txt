@@ -2,7 +2,7 @@
 # To find the cmake version run
 # $ cmake --version
 cmake_minimum_required(VERSION 3.5)
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 # Set the project name
 project (hashmap)
 
@@ -22,5 +22,5 @@ add_executable(hashmap_headers ${SOURCES})
 # when running g++ these will be included as -I/directory/path/
 target_include_directories(hashmap_headers
         PRIVATE
-        ${PROJECT_SOURCE_DIR}/include
+        ${PROJECT_SOURCE_DIR}/include/
         )

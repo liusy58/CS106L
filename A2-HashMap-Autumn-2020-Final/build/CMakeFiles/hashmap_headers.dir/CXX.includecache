@@ -20,6 +20,10 @@ hashmap_iterator.h
 
 /Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/include/hashmap_iterator.h
 
+/Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/src/hashmap.cpp
+../include/hashmap.h
+/Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/include/hashmap.h
+
 /Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/src/main.cpp
 tests.cpp
 /Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/src/tests.cpp

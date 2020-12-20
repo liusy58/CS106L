@@ -30,17 +30,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db627301-bb40-412d-99e6-e29667d7be59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/A2-HashMap-Autumn-2020-Final.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/A2-HashMap-Autumn-2020-Final.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashmap.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/hashmap.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashmap_iterator.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/hashmap_iterator.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/short_answers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/short_answers.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/student_main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_settings.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_settings.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap_headers.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/hashmap_headers.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap_headers.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/hashmap_headers.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,9 +74,9 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="hashmap_headers" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hashmap" TARGET_NAME="hashmap_headers" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hashmap" RUN_TARGET_NAME="hashmap_headers">
@@ -107,7 +101,8 @@
       <workItem from="1608288295684" duration="1572000" />
       <workItem from="1608365834692" duration="2240000" />
       <workItem from="1608368440159" duration="806000" />
-      <workItem from="1608433504225" duration="5607000" />
+      <workItem from="1608433504225" duration="8197000" />
+      <workItem from="1608449012913" duration="1761000" />
     </task>
     <servers />
   </component>
