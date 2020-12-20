@@ -433,6 +433,5 @@ private:
 * Typically we'd just put everything (interface + implementation) in the .h file
 * but the file got a bit too long with the comments, so we split it up.
 */
-#include "hashmap.cpp"
 
 #endif // HASHMAP_H

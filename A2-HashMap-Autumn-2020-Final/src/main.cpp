@@ -5,7 +5,7 @@
  * Author: Avery Wang (awvry952@stanford.edu)
  */
 
-#include "hashmap.h"
+//#include "../include/hashmap.h"
 #include "tests.cpp"
 #include "student_main.cpp"
 #include "test_settings.cpp"

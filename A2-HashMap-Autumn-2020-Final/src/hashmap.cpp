@@ -12,7 +12,7 @@
 *      can have an equally pleasant time reading your code. :)
 */
 
-#include "hashmap.h"
+#include "../include/hashmap.h"
 
 
 template <typename K, typename M, typename H>
@@ -150,21 +150,21 @@ void HashMap<K, M, H>::rehash(size_t new_bucket_count) {
 
         // Hint: you should NOT call insert, and you should not call
         // new or delete in this function. You must reuse existing nodes.
-       // (void) new_buckets_array; // remove this line after you start implementing\
+        (void) new_buckets_array; // remove this line after you start implementing\
 
     /* end student code */
-    for (size_t i = 0; i < bucket_count(); ++i) {
-        auto curr = _buckets_array[i];
-        while (curr != nullptr) {
-            auto node = curr;
-            auto value = node->value;
-            curr = curr->next;
-            auto index = _hash_function(value)%new_bucket_count;
-            node->next = new_buckets_array[index];
-            new_buckets_array[index] = node;
-        }
-    }
-    _buckets_array = new_buckets_array;
+//    for (size_t i = 0; i < bucket_count(); ++i) {
+//        auto curr = _buckets_array[i];
+//        while (curr != nullptr) {
+//            auto node = curr;
+//            auto value = node->value;
+//            curr = curr->next;
+//            auto index = _hash_function(value)%new_bucket_count;
+//            node->next = new_buckets_array[index];
+//            new_buckets_array[index] = node;
+//        }
+//    }
+//    _buckets_array = new_buckets_array;
 }
 
 /*

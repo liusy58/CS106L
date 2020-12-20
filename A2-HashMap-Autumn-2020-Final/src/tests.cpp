@@ -4,7 +4,7 @@
  *
  * DO NOT SUBMIT THIS FILE (unless you added extra tests for us)
  */
-#include "hashmap.h"
+#include "../include/hashmap.h"
 #include "test_settings.cpp"
 
 using namespace std;
