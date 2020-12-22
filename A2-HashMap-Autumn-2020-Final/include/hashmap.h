@@ -578,14 +578,58 @@ void HashMap<K, M, H>::rehash(size_t new_bucket_count) {
             auto node = curr;
             auto value = node->value;
             curr = curr->next;
-            auto index = _hash_function(value)%new_bucket_count;
+            auto index = _hash_function(value.first)%new_bucket_count;
             node->next = new_buckets_array[index];
             new_buckets_array[index] = node;
         }
     }
     _buckets_array = new_buckets_array;
 }
+template <typename K, typename M, typename H>
+M& HashMap<K, M, H>::operator[](const K& key){
+    if(!contains(key)) {
+        auto res = new value_type(key, M());
+        insert(*res);
+    }
+    return at(key);
+}
 
+template <typename K, typename M, typename H>
+std::ostream& operator<<(std::ostream& os, const HashMap<K, M, H>& map){
+    os<<"{";
+    std::string str = "";
+    for (size_t i = 0; i < map.bucket_count(); ++i) {
+        auto curr = map._buckets_array[i];
+        while (curr != nullptr) {
+            auto node = curr;
+            auto value = node->value;
+            os<<str<<value.first<<":"<<value.second;
+            str = ", ";
+            curr = curr->next;
+        }
+    }
+    os<<"}";
+    return os;
+}
+
+template <typename K, typename M, typename H>
+bool operator==(const HashMap<K, M, H>& lhs,
+                const HashMap<K, M, H>& rhs){
+    if(lhs.size()!=rhs.size())
+        return false;
+    for (size_t i = 0; i < lhs.bucket_count(); ++i) {
+        auto curr = lhs._buckets_array[i];
+        while (curr != nullptr) {
+            auto node = curr;
+            auto value = node->value;
+            if(!rhs.contains(value.first)||(value.second != rhs.at(value.first))){
+                return false;
+            }
+            curr = curr->next;
+        }
+    }
+    return true;
+}
 /*
     Milestone 2-3: begin student code
 

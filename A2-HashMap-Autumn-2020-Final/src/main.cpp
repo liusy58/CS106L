@@ -47,7 +47,12 @@ template <typename Map1, typename Map2> bool check_map_equal(Map1& map, Map2& an
     if (answer.empty() != map.empty() || answer.size() != map.size()) return false;
 
     for (const auto& [key, mapped] : answer) {
-        if(map.contains(key) == false || map.at(key) != mapped) return false;
+        if(map.contains(key) == false || map.at(key) != mapped)
+        {
+            cout<<"!!!!!the key is "<<key<<std::endl;
+            cout<<"map.contains(key)"<<map.contains(key) <<" map.at(key) "<<map.at(key)<<"  mapped:"<<mapped<<endl;
+            return false;
+        }
     }
     return true;
 }
