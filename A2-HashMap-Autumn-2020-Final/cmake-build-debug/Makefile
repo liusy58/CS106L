@@ -143,33 +143,6 @@ hashmap_headers/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/build
 .PHONY : hashmap_headers/fast
 
-src/hashmap.o: src/hashmap.cpp.o
-
-.PHONY : src/hashmap.o
-
-# target to build an object file
-src/hashmap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/hashmap.cpp.o
-.PHONY : src/hashmap.cpp.o
-
-src/hashmap.i: src/hashmap.cpp.i
-
-.PHONY : src/hashmap.i
-
-# target to preprocess a source file
-src/hashmap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/hashmap.cpp.i
-.PHONY : src/hashmap.cpp.i
-
-src/hashmap.s: src/hashmap.cpp.s
-
-.PHONY : src/hashmap.s
-
-# target to generate assembly for a file
-src/hashmap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/hashmap.cpp.s
-.PHONY : src/hashmap.cpp.s
-
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -224,33 +197,6 @@ src/student_main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/student_main.cpp.s
 .PHONY : src/student_main.cpp.s
 
-src/test_settings.o: src/test_settings.cpp.o
-
-.PHONY : src/test_settings.o
-
-# target to build an object file
-src/test_settings.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/test_settings.cpp.o
-.PHONY : src/test_settings.cpp.o
-
-src/test_settings.i: src/test_settings.cpp.i
-
-.PHONY : src/test_settings.i
-
-# target to preprocess a source file
-src/test_settings.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/test_settings.cpp.i
-.PHONY : src/test_settings.cpp.i
-
-src/test_settings.s: src/test_settings.cpp.s
-
-.PHONY : src/test_settings.s
-
-# target to generate assembly for a file
-src/test_settings.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/test_settings.cpp.s
-.PHONY : src/test_settings.cpp.s
-
 src/tests.o: src/tests.cpp.o
 
 .PHONY : src/tests.o
@@ -287,18 +233,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... hashmap_headers"
-	@echo "... src/hashmap.o"
-	@echo "... src/hashmap.i"
-	@echo "... src/hashmap.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/student_main.o"
 	@echo "... src/student_main.i"
 	@echo "... src/student_main.s"
-	@echo "... src/test_settings.o"
-	@echo "... src/test_settings.i"
-	@echo "... src/test_settings.s"
 	@echo "... src/tests.o"
 	@echo "... src/tests.i"
 	@echo "... src/tests.s"

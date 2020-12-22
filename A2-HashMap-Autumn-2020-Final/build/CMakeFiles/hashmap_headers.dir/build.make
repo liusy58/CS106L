@@ -76,22 +76,9 @@ include CMakeFiles/hashmap_headers.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hashmap_headers.dir/flags.make
 
-CMakeFiles/hashmap_headers.dir/src/hashmap.cpp.o: CMakeFiles/hashmap_headers.dir/flags.make
-CMakeFiles/hashmap_headers.dir/src/hashmap.cpp.o: ../src/hashmap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hashmap_headers.dir/src/hashmap.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hashmap_headers.dir/src/hashmap.cpp.o -c /Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/src/hashmap.cpp
-
-CMakeFiles/hashmap_headers.dir/src/hashmap.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hashmap_headers.dir/src/hashmap.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/src/hashmap.cpp > CMakeFiles/hashmap_headers.dir/src/hashmap.cpp.i
-
-CMakeFiles/hashmap_headers.dir/src/hashmap.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hashmap_headers.dir/src/hashmap.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/src/hashmap.cpp -o CMakeFiles/hashmap_headers.dir/src/hashmap.cpp.s
-
 CMakeFiles/hashmap_headers.dir/src/main.cpp.o: CMakeFiles/hashmap_headers.dir/flags.make
 CMakeFiles/hashmap_headers.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hashmap_headers.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hashmap_headers.dir/src/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hashmap_headers.dir/src/main.cpp.o -c /Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/src/main.cpp
 
 CMakeFiles/hashmap_headers.dir/src/main.cpp.i: cmake_force
@@ -104,7 +91,7 @@ CMakeFiles/hashmap_headers.dir/src/main.cpp.s: cmake_force
 
 CMakeFiles/hashmap_headers.dir/src/student_main.cpp.o: CMakeFiles/hashmap_headers.dir/flags.make
 CMakeFiles/hashmap_headers.dir/src/student_main.cpp.o: ../src/student_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hashmap_headers.dir/src/student_main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hashmap_headers.dir/src/student_main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hashmap_headers.dir/src/student_main.cpp.o -c /Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/src/student_main.cpp
 
 CMakeFiles/hashmap_headers.dir/src/student_main.cpp.i: cmake_force
@@ -115,22 +102,9 @@ CMakeFiles/hashmap_headers.dir/src/student_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hashmap_headers.dir/src/student_main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/src/student_main.cpp -o CMakeFiles/hashmap_headers.dir/src/student_main.cpp.s
 
-CMakeFiles/hashmap_headers.dir/src/test_settings.cpp.o: CMakeFiles/hashmap_headers.dir/flags.make
-CMakeFiles/hashmap_headers.dir/src/test_settings.cpp.o: ../src/test_settings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hashmap_headers.dir/src/test_settings.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hashmap_headers.dir/src/test_settings.cpp.o -c /Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/src/test_settings.cpp
-
-CMakeFiles/hashmap_headers.dir/src/test_settings.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hashmap_headers.dir/src/test_settings.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/src/test_settings.cpp > CMakeFiles/hashmap_headers.dir/src/test_settings.cpp.i
-
-CMakeFiles/hashmap_headers.dir/src/test_settings.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hashmap_headers.dir/src/test_settings.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/src/test_settings.cpp -o CMakeFiles/hashmap_headers.dir/src/test_settings.cpp.s
-
 CMakeFiles/hashmap_headers.dir/src/tests.cpp.o: CMakeFiles/hashmap_headers.dir/flags.make
 CMakeFiles/hashmap_headers.dir/src/tests.cpp.o: ../src/tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hashmap_headers.dir/src/tests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hashmap_headers.dir/src/tests.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hashmap_headers.dir/src/tests.cpp.o -c /Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/src/tests.cpp
 
 CMakeFiles/hashmap_headers.dir/src/tests.cpp.i: cmake_force
@@ -143,23 +117,19 @@ CMakeFiles/hashmap_headers.dir/src/tests.cpp.s: cmake_force
 
 # Object files for target hashmap_headers
 hashmap_headers_OBJECTS = \
-"CMakeFiles/hashmap_headers.dir/src/hashmap.cpp.o" \
 "CMakeFiles/hashmap_headers.dir/src/main.cpp.o" \
 "CMakeFiles/hashmap_headers.dir/src/student_main.cpp.o" \
-"CMakeFiles/hashmap_headers.dir/src/test_settings.cpp.o" \
 "CMakeFiles/hashmap_headers.dir/src/tests.cpp.o"
 
 # External object files for target hashmap_headers
 hashmap_headers_EXTERNAL_OBJECTS =
 
-hashmap_headers: CMakeFiles/hashmap_headers.dir/src/hashmap.cpp.o
 hashmap_headers: CMakeFiles/hashmap_headers.dir/src/main.cpp.o
 hashmap_headers: CMakeFiles/hashmap_headers.dir/src/student_main.cpp.o
-hashmap_headers: CMakeFiles/hashmap_headers.dir/src/test_settings.cpp.o
 hashmap_headers: CMakeFiles/hashmap_headers.dir/src/tests.cpp.o
 hashmap_headers: CMakeFiles/hashmap_headers.dir/build.make
 hashmap_headers: CMakeFiles/hashmap_headers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable hashmap_headers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable hashmap_headers"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hashmap_headers.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

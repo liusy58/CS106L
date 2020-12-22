@@ -82,16 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/src/hashmap.cpp">
-			<Option target="hashmap_headers"/>
-		</Unit>
 		<Unit filename="/Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/src/main.cpp">
 			<Option target="hashmap_headers"/>
 		</Unit>
 		<Unit filename="/Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/src/student_main.cpp">
-			<Option target="hashmap_headers"/>
-		</Unit>
-		<Unit filename="/Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/src/test_settings.cpp">
 			<Option target="hashmap_headers"/>
 		</Unit>
 		<Unit filename="/Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/src/tests.cpp">

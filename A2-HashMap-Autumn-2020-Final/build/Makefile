@@ -130,44 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hashmap_headers
+# Target rules for targets named hashmap
 
 # Build rule for target.
-hashmap_headers: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hashmap_headers
-.PHONY : hashmap_headers
+hashmap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hashmap
+.PHONY : hashmap
 
 # fast build rule for target.
-hashmap_headers/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/build
-.PHONY : hashmap_headers/fast
-
-src/hashmap.o: src/hashmap.cpp.o
-
-.PHONY : src/hashmap.o
-
-# target to build an object file
-src/hashmap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/hashmap.cpp.o
-.PHONY : src/hashmap.cpp.o
-
-src/hashmap.i: src/hashmap.cpp.i
-
-.PHONY : src/hashmap.i
-
-# target to preprocess a source file
-src/hashmap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/hashmap.cpp.i
-.PHONY : src/hashmap.cpp.i
-
-src/hashmap.s: src/hashmap.cpp.s
-
-.PHONY : src/hashmap.s
-
-# target to generate assembly for a file
-src/hashmap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/hashmap.cpp.s
-.PHONY : src/hashmap.cpp.s
+hashmap/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap.dir/build.make CMakeFiles/hashmap.dir/build
+.PHONY : hashmap/fast
 
 src/main.o: src/main.cpp.o
 
@@ -175,7 +148,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap.dir/build.make CMakeFiles/hashmap.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -184,7 +157,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap.dir/build.make CMakeFiles/hashmap.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -193,7 +166,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap.dir/build.make CMakeFiles/hashmap.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/student_main.o: src/student_main.cpp.o
@@ -202,7 +175,7 @@ src/student_main.o: src/student_main.cpp.o
 
 # target to build an object file
 src/student_main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/student_main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap.dir/build.make CMakeFiles/hashmap.dir/src/student_main.cpp.o
 .PHONY : src/student_main.cpp.o
 
 src/student_main.i: src/student_main.cpp.i
@@ -211,7 +184,7 @@ src/student_main.i: src/student_main.cpp.i
 
 # target to preprocess a source file
 src/student_main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/student_main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap.dir/build.make CMakeFiles/hashmap.dir/src/student_main.cpp.i
 .PHONY : src/student_main.cpp.i
 
 src/student_main.s: src/student_main.cpp.s
@@ -220,35 +193,8 @@ src/student_main.s: src/student_main.cpp.s
 
 # target to generate assembly for a file
 src/student_main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/student_main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap.dir/build.make CMakeFiles/hashmap.dir/src/student_main.cpp.s
 .PHONY : src/student_main.cpp.s
-
-src/test_settings.o: src/test_settings.cpp.o
-
-.PHONY : src/test_settings.o
-
-# target to build an object file
-src/test_settings.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/test_settings.cpp.o
-.PHONY : src/test_settings.cpp.o
-
-src/test_settings.i: src/test_settings.cpp.i
-
-.PHONY : src/test_settings.i
-
-# target to preprocess a source file
-src/test_settings.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/test_settings.cpp.i
-.PHONY : src/test_settings.cpp.i
-
-src/test_settings.s: src/test_settings.cpp.s
-
-.PHONY : src/test_settings.s
-
-# target to generate assembly for a file
-src/test_settings.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/test_settings.cpp.s
-.PHONY : src/test_settings.cpp.s
 
 src/tests.o: src/tests.cpp.o
 
@@ -256,7 +202,7 @@ src/tests.o: src/tests.cpp.o
 
 # target to build an object file
 src/tests.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/tests.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap.dir/build.make CMakeFiles/hashmap.dir/src/tests.cpp.o
 .PHONY : src/tests.cpp.o
 
 src/tests.i: src/tests.cpp.i
@@ -265,7 +211,7 @@ src/tests.i: src/tests.cpp.i
 
 # target to preprocess a source file
 src/tests.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/tests.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap.dir/build.make CMakeFiles/hashmap.dir/src/tests.cpp.i
 .PHONY : src/tests.cpp.i
 
 src/tests.s: src/tests.cpp.s
@@ -274,7 +220,7 @@ src/tests.s: src/tests.cpp.s
 
 # target to generate assembly for a file
 src/tests.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap_headers.dir/build.make CMakeFiles/hashmap_headers.dir/src/tests.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hashmap.dir/build.make CMakeFiles/hashmap.dir/src/tests.cpp.s
 .PHONY : src/tests.cpp.s
 
 # Help Target
@@ -285,19 +231,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... hashmap_headers"
-	@echo "... src/hashmap.o"
-	@echo "... src/hashmap.i"
-	@echo "... src/hashmap.s"
+	@echo "... hashmap"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/student_main.o"
 	@echo "... src/student_main.i"
 	@echo "... src/student_main.s"
-	@echo "... src/test_settings.o"
-	@echo "... src/test_settings.i"
-	@echo "... src/test_settings.s"
 	@echo "... src/tests.o"
 	@echo "... src/tests.i"
 	@echo "... src/tests.s"

@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/hashmap_headers.dir/src/hashmap.cpp.o"
   "CMakeFiles/hashmap_headers.dir/src/main.cpp.o"
   "CMakeFiles/hashmap_headers.dir/src/student_main.cpp.o"
-  "CMakeFiles/hashmap_headers.dir/src/test_settings.cpp.o"
   "CMakeFiles/hashmap_headers.dir/src/tests.cpp.o"
   "hashmap_headers"
   "hashmap_headers.pdb"

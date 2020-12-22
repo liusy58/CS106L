@@ -2,25 +2,24 @@
 # To find the cmake version run
 # $ cmake --version
 cmake_minimum_required(VERSION 3.5)
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 # Set the project name
 project (hashmap)
 
 # Create a sources variable with a link to all cpp files to compile
 set(SOURCES
-        src/hashmap.cpp
+#        src/hashmap.cpp
         src/main.cpp
         src/student_main.cpp
-        src/test_settings.cpp
         src/tests.cpp
         )
 
 # Add an executable with the above sources
-add_executable(hashmap_headers ${SOURCES})
+add_executable(hashmap ${SOURCES})
 
 # Set the directories that should be included in the build command for this target
 # when running g++ these will be included as -I/directory/path/
-target_include_directories(hashmap_headers
+target_include_directories(hashmap
         PRIVATE
         ${PROJECT_SOURCE_DIR}/include/
         )
