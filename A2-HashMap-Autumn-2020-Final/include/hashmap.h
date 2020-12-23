@@ -94,6 +94,8 @@ public:
     */
     explicit HashMap(size_t bucket_count, const H& hash = H());
 
+    HashMap(const HashMap &other);
+    HashMap(HashMap &&other);
     /*
     * Destructor.
     *
@@ -313,6 +315,8 @@ public:
 
     M& operator[](const K& key);
 
+    HashMap&operator=(const HashMap& other);
+    HashMap&operator=(HashMap&& other);
 private:
 
     /*
@@ -636,6 +640,65 @@ bool operator!=(const HashMap<K, M, H>& lhs,
                 const HashMap<K, M, H>& rhs){
     return !(lhs == rhs);
 }
+
+template <typename K, typename M, typename H>
+HashMap<K, M, H>::HashMap(HashMap const &other){
+    this->_hash_function = other._hash_function;
+    this->_buckets_array = std::vector<node*>(other.bucket_count(), nullptr);
+    this->_size = 0;
+    for (size_t i = 0; i < other.bucket_count(); ++i) {
+        auto curr = other._buckets_array[i];
+        while (curr != nullptr) {
+            auto value = curr->value;
+            auto node = std::make_pair(value.first,value.second);
+            insert(node);
+            curr = curr->next;
+        }
+    }
+}
+
+template <typename K, typename M, typename H>
+HashMap<K, M, H>::HashMap(HashMap &&other){
+    this->_hash_function = other._hash_function;
+    this->_size = other._size;
+    this->_buckets_array = other._buckets_array;
+
+    other._buckets_array = {};
+    other._size = 0 ;
+
+}
+
+
+template<typename K, typename M, typename H>
+HashMap<K,M,H> &HashMap<K, M, H>::operator=(const HashMap &other) {
+    if(*this == other) return *this;
+    this->_hash_function = other._hash_function;
+    this->_size = 0;
+    this->_buckets_array = std::vector<node*>(other.bucket_count(), nullptr);
+    for (size_t i = 0; i < other.bucket_count(); ++i) {
+        auto curr = other._buckets_array[i];
+        while (curr != nullptr) {
+            auto value = curr->value;
+            auto node = std::make_pair(value.first,value.second);
+            insert(node);
+            curr = curr->next;
+        }
+    }
+    return *this;
+}
+
+template<typename K, typename M, typename H>
+HashMap<K,M,H> &HashMap<K, M, H>::operator=(HashMap &&other) {
+    if(*this == other) return *this;
+    this->_hash_function = other._hash_function;
+    this->_size = other._size;
+    this->_buckets_array = other._buckets_array;
+
+    other._buckets_array = {};
+    other._size = 0 ;
+    return *this;
+}
+
 /*
     Milestone 2-3: begin student code
 
