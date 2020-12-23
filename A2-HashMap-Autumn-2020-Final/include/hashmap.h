@@ -96,6 +96,11 @@ public:
 
     HashMap(const HashMap &other);
     HashMap(HashMap &&other);
+
+    HashMap(std::initializer_list<std::pair<K, M> >list);
+
+    template <typename interator_input>
+    HashMap(interator_input begin,interator_input end);
     /*
     * Destructor.
     *
@@ -698,6 +703,33 @@ HashMap<K,M,H> &HashMap<K, M, H>::operator=(HashMap &&other) {
     other._size = 0 ;
     return *this;
 }
+
+template<typename K, typename M, typename H>
+HashMap<K, M, H>::HashMap(std::initializer_list<std::pair<K, M>>list) {
+    this->_size = 0;
+    this->_buckets_array = std::vector<node*>(kDefaultBuckets, nullptr);
+    for(auto &node:list){
+        insert(node);
+    }
+}
+
+template<typename K, typename M, typename H>
+template<typename interator_input>
+HashMap<K, M, H>::HashMap(interator_input begin,interator_input end) {
+    this->_size = 0;
+    this->_buckets_array = std::vector<node*>(kDefaultBuckets, nullptr);
+    while(begin!=end){
+        insert(*begin++);
+    }
+}
+
+
+
+
+
+
+
+
 
 /*
     Milestone 2-3: begin student code
