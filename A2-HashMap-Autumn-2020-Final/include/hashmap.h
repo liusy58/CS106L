@@ -261,7 +261,7 @@ public:
     * if a key is not found. Instead, it will create a K/M pair for that key with a default
     * mapped value.
     */
-    M& at(const K& key);
+    M& at(const K& key)const;
 
     /*
     * Function that will print to std::cout the contents of the hash table as
@@ -500,7 +500,7 @@ HashMap<K, M, H>::insert(const value_type& value) {
 }
 
 template <typename K, typename M, typename H>
-M& HashMap<K, M, H>::at(const K& key) {
+M& HashMap<K, M, H>::at(const K& key)const {
     auto [prev, node_found] = find_node(key);
     if (node_found == nullptr) {
         throw std::out_of_range("HashMap<K, M, H>::at: key not found");
@@ -629,6 +629,12 @@ bool operator==(const HashMap<K, M, H>& lhs,
         }
     }
     return true;
+}
+
+template <typename K, typename M, typename H>
+bool operator!=(const HashMap<K, M, H>& lhs,
+                const HashMap<K, M, H>& rhs){
+    return !(lhs == rhs);
 }
 /*
     Milestone 2-3: begin student code

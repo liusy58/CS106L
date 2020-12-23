@@ -31,17 +31,14 @@
   <component name="ChangeListManager">
     <list default="true" id="db627301-bb40-412d-99e6-e29667d7be59" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/hashmap.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/hashmap.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/hashmap.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/hashmap.dir/src/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hashmap" beforeDir="false" afterPath="$PROJECT_DIR$/build/hashmap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/hashmap" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/hashmap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/hashmap.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/hashmap.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/test_settings.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/test_settings.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,14 +78,14 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="hashmap" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hashmap" TARGET_NAME="hashmap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hashmap" RUN_TARGET_NAME="hashmap">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="hashmap" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hashmap" TARGET_NAME="hashmap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hashmap" RUN_TARGET_NAME="hashmap">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -110,7 +107,8 @@
       <workItem from="1608517442264" duration="710000" />
       <workItem from="1608619653934" duration="361000" />
       <workItem from="1608627323276" duration="2843000" />
-      <workItem from="1608631776635" duration="1372000" />
+      <workItem from="1608631776635" duration="1380000" />
+      <workItem from="1608697969882" duration="1480000" />
     </task>
     <servers />
   </component>
@@ -134,25 +132,33 @@
       <screen x="47" y="23" width="1033" height="1897" />
     </state>
     <state x="255" y="1007" key="#com.intellij.fileTypes.FileTypeChooser/47.23.1033.1897@47.23.1033.1897" timestamp="1608518238026" />
-    <state width="964" height="339" key="GridCell.Tab.0.bottom" timestamp="1608631379862">
+    <state width="964" height="289" key="GridCell.Tab.0.bottom" timestamp="1608699250759">
       <screen x="47" y="23" width="1033" height="1897" />
     </state>
-    <state width="964" height="339" key="GridCell.Tab.0.bottom/47.23.1033.1897@47.23.1033.1897" timestamp="1608631379862" />
+    <state width="964" height="289" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1608653909361" />
+    <state width="964" height="289" key="GridCell.Tab.0.bottom/40.23.1640.1027@40.23.1640.1027" timestamp="1608653860465" />
+    <state width="964" height="289" key="GridCell.Tab.0.bottom/47.23.1033.1897@47.23.1033.1897" timestamp="1608699250759" />
     <state width="1065" height="318" key="GridCell.Tab.0.bottom/47.23.1633.1027@47.23.1633.1027" timestamp="1608479972037" />
-    <state width="964" height="339" key="GridCell.Tab.0.center" timestamp="1608631379861">
+    <state width="964" height="289" key="GridCell.Tab.0.center" timestamp="1608699250758">
       <screen x="47" y="23" width="1033" height="1897" />
     </state>
-    <state width="964" height="339" key="GridCell.Tab.0.center/47.23.1033.1897@47.23.1033.1897" timestamp="1608631379861" />
+    <state width="964" height="289" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1608653909360" />
+    <state width="964" height="289" key="GridCell.Tab.0.center/40.23.1640.1027@40.23.1640.1027" timestamp="1608653860464" />
+    <state width="964" height="289" key="GridCell.Tab.0.center/47.23.1033.1897@47.23.1033.1897" timestamp="1608699250758" />
     <state width="1065" height="318" key="GridCell.Tab.0.center/47.23.1633.1027@47.23.1633.1027" timestamp="1608479972036" />
-    <state width="964" height="339" key="GridCell.Tab.0.left" timestamp="1608631379860">
+    <state width="964" height="289" key="GridCell.Tab.0.left" timestamp="1608699250757">
       <screen x="47" y="23" width="1033" height="1897" />
     </state>
-    <state width="964" height="339" key="GridCell.Tab.0.left/47.23.1033.1897@47.23.1033.1897" timestamp="1608631379860" />
+    <state width="964" height="289" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1608653909360" />
+    <state width="964" height="289" key="GridCell.Tab.0.left/40.23.1640.1027@40.23.1640.1027" timestamp="1608653860463" />
+    <state width="964" height="289" key="GridCell.Tab.0.left/47.23.1033.1897@47.23.1033.1897" timestamp="1608699250757" />
     <state width="1065" height="318" key="GridCell.Tab.0.left/47.23.1633.1027@47.23.1633.1027" timestamp="1608479972036" />
-    <state width="964" height="339" key="GridCell.Tab.0.right" timestamp="1608631379861">
+    <state width="964" height="289" key="GridCell.Tab.0.right" timestamp="1608699250758">
       <screen x="47" y="23" width="1033" height="1897" />
     </state>
-    <state width="964" height="339" key="GridCell.Tab.0.right/47.23.1033.1897@47.23.1033.1897" timestamp="1608631379861" />
+    <state width="964" height="289" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1608653909361" />
+    <state width="964" height="289" key="GridCell.Tab.0.right/40.23.1640.1027@40.23.1640.1027" timestamp="1608653860464" />
+    <state width="964" height="289" key="GridCell.Tab.0.right/47.23.1033.1897@47.23.1033.1897" timestamp="1608699250758" />
     <state width="1065" height="318" key="GridCell.Tab.0.right/47.23.1633.1027@47.23.1633.1027" timestamp="1608479972037" />
     <state width="964" height="339" key="GridCell.Tab.1.bottom" timestamp="1608631379863">
       <screen x="47" y="23" width="1033" height="1897" />
@@ -182,6 +188,10 @@
       <screen x="47" y="23" width="1033" height="1897" />
     </state>
     <state x="279" y="451" key="run.anything.popup/47.23.1033.1897@47.23.1033.1897" timestamp="1608453935713" />
+    <state x="216" y="858" width="670" height="676" key="search.everywhere.popup" timestamp="1608698188738">
+      <screen x="47" y="23" width="1033" height="1897" />
+    </state>
+    <state x="216" y="858" width="670" height="676" key="search.everywhere.popup/47.23.1033.1897@47.23.1033.1897" timestamp="1608698188738" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
