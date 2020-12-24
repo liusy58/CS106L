@@ -765,7 +765,8 @@ void A_iterator_for_each_basic() {
         map10.insert(pair);
     }
     std::set<std::pair<int, int> > answers10;
-    for (const auto& pair : map10) VERIFY_TRUE(answers10.insert(pair).second == true, __LINE__);
+    for (const auto& pair : map10)
+        VERIFY_TRUE(answers10.insert(pair).second == true, __LINE__);
 
     VERIFY_TRUE(questions == answers10, __LINE__);
 }
