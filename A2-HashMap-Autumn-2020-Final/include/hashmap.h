@@ -48,8 +48,8 @@
 template <typename K, typename M, typename H = std::hash<K>>
 class HashMap {
 
-public:
 
+public:
     /*
     * Alias for std::pair<const K, M>, used by the STL (such as in std::inserter)
     * As noted above, value_type is not the same as the mapped_type!
@@ -58,6 +58,7 @@ public:
     *      HashMap::value_type val = {3, "Avery"};
     *      map.insert(val);
     */
+    friend class Iterator;
     using value_type = std::pair<const K, M>;
 
     /*
@@ -322,6 +323,13 @@ public:
 
     HashMap&operator=(const HashMap& other);
     HashMap&operator=(HashMap&& other);
+    Iterator begin()const{
+        return Iterator(_buckets_array);
+    }
+    Iterator end()const{
+        return Iterator(_buckets_array,_buckets_array.size());
+    }
+
 private:
 
     /*
@@ -430,7 +438,6 @@ private:
     template <typename K_, typename M_, typename H_>
     friend bool operator!=(const HashMap<K_, M_, H_>& lhs,
        const HashMap<K_, M_, H_>& rhs);
-
 
 };
 
