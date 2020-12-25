@@ -470,8 +470,10 @@ public:
         bool operator!=( iterator&temp){
             return !((*this)==temp);
         }
-
-        value_type& operator*(){
+        bool operator!=(const iterator&temp){
+            return !((*this)==temp);
+        }
+        value_type& operator*()const{
             if(curr_node== nullptr)
                 throw "Error! ";
             return curr_node->value;
@@ -519,18 +521,106 @@ public:
             this->hashMap = other.hashMap;
             return *this;
         }
-        value_type*operator->() {
+        value_type*operator->() const{
             if(curr_node == nullptr)
                 throw "error!";
             return &(curr_node->value);
         }
     };
-public:
-    iterator begin()const{
+    class const_iterator :public std::iterator<std::input_iterator_tag,value_type>{
+    private:
+        const HashMap*hashMap;
+        bool is_end = true;
+        int index = 0;
+        node*curr_node= nullptr;
+    public:
+        explicit const_iterator(const HashMap*mp,bool end=false):hashMap(mp),is_end(end){
+            hashMap = mp;
+            if(!is_end){
+                while(index<hashMap->bucket_count()&&hashMap->_buckets_array[index]== nullptr)
+                    ++index;
+                if(index<hashMap->bucket_count()){
+                    curr_node = hashMap->_buckets_array[index];
+                }else{
+                    is_end = true;
+                }
+            }
+        }
+        const_iterator(const_iterator&it){
+            hashMap = it.hashMap;
+            index = it.index;
+            is_end = it.is_end;
+            curr_node = it.curr_node;
+        }
+        bool operator==( const_iterator&temp){
+            return (is_end&temp.is_end)||(curr_node == temp.curr_node);
+        }
+        bool operator==(const const_iterator&temp){
+            return (is_end&temp.is_end)||(curr_node == temp.curr_node);
+        }
+        bool operator!=(const_iterator&temp) {
+            return !((*this)==temp);
+        }
+        bool operator!=(const const_iterator&temp){
+            return !((*this)==temp);
+        }
+        value_type& operator*()const{
+            if(curr_node== nullptr)
+                throw "Error! ";
+            return curr_node->value;
+        }
+        const_iterator&operator++(){
+            if(curr_node== nullptr){
+                is_end = true;
+                return *this;
+            }
+            curr_node = curr_node->next;
+            if(curr_node== nullptr){
+                ++index;
+                while(index<hashMap->bucket_count()&&hashMap->_buckets_array[index]== nullptr)
+                    ++index;
+                if(index<hashMap->bucket_count()){
+                    curr_node = hashMap->_buckets_array[index];
+                }else{
+                    is_end=true;
+                }
+            }
+            return *this;
+        }
+        const_iterator operator++(int){
+            const_iterator copy(*this);
+            operator++();
+            return copy;
+        }
+
+        const_iterator&operator=(const_iterator&other){
+            if(*this == other)
+                return *this;
+            this->curr_node = other.curr_node;
+            this->is_end = other.is_end;
+            this->index = other.index;
+            this->hashMap = other.hashMap;
+            return *this;
+        }
+
+        value_type*operator->()const{
+            if(curr_node == nullptr)
+                throw "error!";
+            return &(curr_node->value);
+        }
+    };
+    iterator begin(){
         return iterator(this,false);
     }
-    iterator end()const{
+    iterator end(){
         return iterator(this,true);
+    }
+
+    const_iterator begin()const{
+        return const_iterator(this,false);
+    }
+    const_iterator end()const{
+        return const_iterator(this,true);
     }
 
 };
