@@ -70,3 +70,30 @@ Member Function is a function with `this` as the left-hand side of expression. B
 ![](./images/2.png)
 
 
+### Lecture 14：Move Semantics
+A lvalue has an address (can do &), and a rvalue does not
+
+![](./images/3.png)
+
+`std::move` just forces anything to become a rvalue
+
+
+
+```C++
+template <typename T>
+void vector<T>::push_back(const T& element) {
+elems[_size++] = element; // equals → copy }
+template <typename T>
+void vector<T>::push_back(T&& element) {
+elems[_size++] = std::move(element); // move! }
+```
+
+```C++
+template <typename T>
+void swap(T& a, T& b) noexcept {
+   T c(std::move(a)); // move constructor
+   a = std::move(b);  // move assignment
+   b = std::move(c);  // move assignment
+}
+
+```
