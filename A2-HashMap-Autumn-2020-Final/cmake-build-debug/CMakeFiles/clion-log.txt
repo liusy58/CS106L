@@ -1,4 +1,1 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final/cmake-build-debug
+CMakeLists.txt not found in /Users/bytedance/Documents/GitHub/CS106L/A2-HashMap-Autumn-2020-Final Select CMakeLists.txt file...

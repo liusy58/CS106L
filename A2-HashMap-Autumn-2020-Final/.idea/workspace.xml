@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated>
-      <config projectName="hashmap" targetName="hashmap" />
-    </generated>
+    <generated />
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -30,15 +28,116 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db627301-bb40-412d-99e6-e29667d7be59" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap.dir/src/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap.dir/src/student_main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap.dir/src/student_main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/hashmap" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/hashmap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/hashmap.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/hashmap.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/test_settings.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/test_settings.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2-HashMap-Autumn-2020-Final.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/A2-HashMap-Autumn-2020-Final.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A2-HashMap.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.19.0/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.19.0/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.19.0/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.19.0/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.19.0/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.19.0/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.19.0/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.19.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/3.19.0/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap.dir/src/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap.dir/src/student_main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap.dir/src/tests.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap_headers.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap_headers.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap_headers.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap_headers.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap_headers.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap_headers.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap_headers.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap_headers.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap_headers.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/hashmap_headers.dir/src/tests.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hashmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hashmap_headers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap.dir/src/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap.dir/src/student_main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap.dir/src/tests.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap_headers.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap_headers.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap_headers.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap_headers.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap_headers.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap_headers.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap_headers.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap_headers.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap_headers.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap_headers.dir/src/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap_headers.dir/src/student_main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hashmap_headers.dir/src/tests.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/hashmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/hashmap.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/hashmap_headers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/hashmap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/hashmap_iterator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/test_settings.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hashmap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/short_answers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/student_main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +148,6 @@
     <option name="clangTidyViaClangd" value="false" />
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -71,6 +169,7 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -79,7 +178,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="hashmap" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hashmap" TARGET_NAME="hashmap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hashmap" RUN_TARGET_NAME="hashmap">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -113,7 +217,9 @@
       <workItem from="1608807815418" duration="4966000" />
       <workItem from="1608863836492" duration="2670000" />
       <workItem from="1609055860216" duration="5765000" />
-      <workItem from="1609134059971" duration="1542000" />
+      <workItem from="1609134059971" duration="6150000" />
+      <workItem from="1609168369254" duration="107000" />
+      <workItem from="1609168912197" duration="296000" />
     </task>
     <servers />
   </component>
@@ -137,73 +243,73 @@
       <screen x="47" y="23" width="1033" height="1897" />
     </state>
     <state x="255" y="1007" key="#com.intellij.fileTypes.FileTypeChooser/47.23.1033.1897@47.23.1033.1897" timestamp="1608518238026" />
-    <state width="1469" height="413" key="GridCell.Tab.0.bottom" timestamp="1609083868107">
+    <state width="1163" height="468" key="GridCell.Tab.0.bottom" timestamp="1609169207817">
       <screen x="47" y="23" width="1633" height="1027" />
     </state>
     <state width="983" height="410" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1608830696216" />
     <state width="964" height="289" key="GridCell.Tab.0.bottom/40.23.1640.1027@40.23.1640.1027" timestamp="1608653860465" />
     <state width="983" height="330" key="GridCell.Tab.0.bottom/42.23.1638.1027@42.23.1638.1027" timestamp="1608742007343" />
     <state width="1124" height="307" key="GridCell.Tab.0.bottom/47.23.1033.1897@47.23.1033.1897" timestamp="1608897886998" />
-    <state width="1469" height="413" key="GridCell.Tab.0.bottom/47.23.1633.1027@47.23.1633.1027" timestamp="1609083868107" />
+    <state width="1163" height="468" key="GridCell.Tab.0.bottom/47.23.1633.1027@47.23.1633.1027" timestamp="1609169207817" />
     <state width="983" height="315" key="GridCell.Tab.0.bottom/52.23.1028.1897@52.23.1028.1897" timestamp="1608727183181" />
-    <state width="1469" height="413" key="GridCell.Tab.0.center" timestamp="1609083868107">
+    <state width="1163" height="468" key="GridCell.Tab.0.center" timestamp="1609169207816">
       <screen x="47" y="23" width="1633" height="1027" />
     </state>
     <state width="983" height="410" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1608830696215" />
     <state width="964" height="289" key="GridCell.Tab.0.center/40.23.1640.1027@40.23.1640.1027" timestamp="1608653860464" />
     <state width="983" height="330" key="GridCell.Tab.0.center/42.23.1638.1027@42.23.1638.1027" timestamp="1608742007343" />
     <state width="1124" height="307" key="GridCell.Tab.0.center/47.23.1033.1897@47.23.1033.1897" timestamp="1608897886998" />
-    <state width="1469" height="413" key="GridCell.Tab.0.center/47.23.1633.1027@47.23.1633.1027" timestamp="1609083868107" />
+    <state width="1163" height="468" key="GridCell.Tab.0.center/47.23.1633.1027@47.23.1633.1027" timestamp="1609169207816" />
     <state width="983" height="315" key="GridCell.Tab.0.center/52.23.1028.1897@52.23.1028.1897" timestamp="1608727183181" />
-    <state width="1469" height="413" key="GridCell.Tab.0.left" timestamp="1609083868107">
+    <state width="1163" height="468" key="GridCell.Tab.0.left" timestamp="1609169207815">
       <screen x="47" y="23" width="1633" height="1027" />
     </state>
     <state width="983" height="410" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1608830696215" />
     <state width="964" height="289" key="GridCell.Tab.0.left/40.23.1640.1027@40.23.1640.1027" timestamp="1608653860463" />
     <state width="983" height="330" key="GridCell.Tab.0.left/42.23.1638.1027@42.23.1638.1027" timestamp="1608742007342" />
     <state width="1124" height="307" key="GridCell.Tab.0.left/47.23.1033.1897@47.23.1033.1897" timestamp="1608897886997" />
-    <state width="1469" height="413" key="GridCell.Tab.0.left/47.23.1633.1027@47.23.1633.1027" timestamp="1609083868107" />
+    <state width="1163" height="468" key="GridCell.Tab.0.left/47.23.1633.1027@47.23.1633.1027" timestamp="1609169207815" />
     <state width="983" height="315" key="GridCell.Tab.0.left/52.23.1028.1897@52.23.1028.1897" timestamp="1608727183180" />
-    <state width="1469" height="413" key="GridCell.Tab.0.right" timestamp="1609083868107">
+    <state width="1163" height="468" key="GridCell.Tab.0.right" timestamp="1609169207816">
       <screen x="47" y="23" width="1633" height="1027" />
     </state>
     <state width="983" height="410" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1608830696216" />
     <state width="964" height="289" key="GridCell.Tab.0.right/40.23.1640.1027@40.23.1640.1027" timestamp="1608653860464" />
     <state width="983" height="330" key="GridCell.Tab.0.right/42.23.1638.1027@42.23.1638.1027" timestamp="1608742007343" />
     <state width="1124" height="307" key="GridCell.Tab.0.right/47.23.1033.1897@47.23.1033.1897" timestamp="1608897886998" />
-    <state width="1469" height="413" key="GridCell.Tab.0.right/47.23.1633.1027@47.23.1633.1027" timestamp="1609083868107" />
+    <state width="1163" height="468" key="GridCell.Tab.0.right/47.23.1633.1027@47.23.1633.1027" timestamp="1609169207816" />
     <state width="983" height="315" key="GridCell.Tab.0.right/52.23.1028.1897@52.23.1028.1897" timestamp="1608727183181" />
-    <state width="1469" height="413" key="GridCell.Tab.1.bottom" timestamp="1609083868108">
+    <state width="1163" height="465" key="GridCell.Tab.1.bottom" timestamp="1609167972800">
       <screen x="47" y="23" width="1633" height="1027" />
     </state>
     <state width="983" height="410" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1608830696217" />
     <state width="983" height="330" key="GridCell.Tab.1.bottom/42.23.1638.1027@42.23.1638.1027" timestamp="1608742007344" />
     <state width="983" height="410" key="GridCell.Tab.1.bottom/47.23.1033.1897@47.23.1033.1897" timestamp="1608813333270" />
-    <state width="1469" height="413" key="GridCell.Tab.1.bottom/47.23.1633.1027@47.23.1633.1027" timestamp="1609083868108" />
+    <state width="1163" height="465" key="GridCell.Tab.1.bottom/47.23.1633.1027@47.23.1633.1027" timestamp="1609167972800" />
     <state width="983" height="330" key="GridCell.Tab.1.bottom/52.23.1028.1897@52.23.1028.1897" timestamp="1608722663113" />
-    <state width="1469" height="413" key="GridCell.Tab.1.center" timestamp="1609083868108">
+    <state width="1163" height="465" key="GridCell.Tab.1.center" timestamp="1609167972800">
       <screen x="47" y="23" width="1633" height="1027" />
     </state>
     <state width="983" height="410" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1608830696217" />
     <state width="983" height="330" key="GridCell.Tab.1.center/42.23.1638.1027@42.23.1638.1027" timestamp="1608742007344" />
     <state width="983" height="410" key="GridCell.Tab.1.center/47.23.1033.1897@47.23.1033.1897" timestamp="1608813333269" />
-    <state width="1469" height="413" key="GridCell.Tab.1.center/47.23.1633.1027@47.23.1633.1027" timestamp="1609083868108" />
+    <state width="1163" height="465" key="GridCell.Tab.1.center/47.23.1633.1027@47.23.1633.1027" timestamp="1609167972800" />
     <state width="983" height="330" key="GridCell.Tab.1.center/52.23.1028.1897@52.23.1028.1897" timestamp="1608722663112" />
-    <state width="1469" height="413" key="GridCell.Tab.1.left" timestamp="1609083868108">
+    <state width="1163" height="465" key="GridCell.Tab.1.left" timestamp="1609167972800">
       <screen x="47" y="23" width="1633" height="1027" />
     </state>
     <state width="983" height="410" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1608830696216" />
     <state width="983" height="330" key="GridCell.Tab.1.left/42.23.1638.1027@42.23.1638.1027" timestamp="1608742007343" />
     <state width="983" height="410" key="GridCell.Tab.1.left/47.23.1033.1897@47.23.1033.1897" timestamp="1608813333269" />
-    <state width="1469" height="413" key="GridCell.Tab.1.left/47.23.1633.1027@47.23.1633.1027" timestamp="1609083868108" />
+    <state width="1163" height="465" key="GridCell.Tab.1.left/47.23.1633.1027@47.23.1633.1027" timestamp="1609167972800" />
     <state width="983" height="330" key="GridCell.Tab.1.left/52.23.1028.1897@52.23.1028.1897" timestamp="1608722663112" />
-    <state width="1469" height="413" key="GridCell.Tab.1.right" timestamp="1609083868108">
+    <state width="1163" height="465" key="GridCell.Tab.1.right" timestamp="1609167972800">
       <screen x="47" y="23" width="1633" height="1027" />
     </state>
     <state width="983" height="410" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1608830696217" />
     <state width="983" height="330" key="GridCell.Tab.1.right/42.23.1638.1027@42.23.1638.1027" timestamp="1608742007344" />
     <state width="983" height="410" key="GridCell.Tab.1.right/47.23.1033.1897@47.23.1033.1897" timestamp="1608813333269" />
-    <state width="1469" height="413" key="GridCell.Tab.1.right/47.23.1633.1027@47.23.1633.1027" timestamp="1609083868108" />
+    <state width="1163" height="465" key="GridCell.Tab.1.right/47.23.1633.1027@47.23.1633.1027" timestamp="1609167972800" />
     <state width="983" height="330" key="GridCell.Tab.1.right/52.23.1028.1897@52.23.1028.1897" timestamp="1608722663113" />
     <state x="267" y="670" width="598" height="490" key="find.popup" timestamp="1608629612432">
       <screen x="47" y="23" width="1033" height="1897" />
@@ -223,13 +329,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/main.cpp</url>
-          <line>1081</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/main.cpp</url>
-          <line>1246</line>
-          <option name="timeStamp" value="31" />
+          <line>309</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
