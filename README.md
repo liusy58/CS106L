@@ -97,3 +97,35 @@ void swap(T& a, T& b) noexcept {
 }
 
 ```
+
+
+### Lecture 15: RAII and Smart Pointers
+
+#### RALL
+* All resources should be acquired in the constructor.
+* All resources should be released in the destructor.
+
+
+#### Examples
+![](./images/4.png)
+![](./images/5.png)
+![](./images/6.png)
+
+
+#### `std::unique_ptr`
+* Uniquely owns its resource and deletes it when the object is destroyed
+* Cannot be copied (but can be moved, if non-const!)
+
+#### `std::shared_ptr`
+* Resource can be stored by any number of `std::shared_ptrs`
+* The resource is deleted when none of them points to it
+
+
+```C++
+std::unique_ptr<T> up{new T};
+std::unique_ptr<T> up = std::make_unique<T>();
+std::shared_ptr<T> sp{new T};
+std::shared_ptr<T> sp = std::make_shared<T>();
+std::weak_ptr<T> wp = sp;
+//can only be copy/move constructed (or empty)!
+```

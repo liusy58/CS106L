@@ -60,6 +60,11 @@ template <typename Map1, typename Map2> bool check_map_equal(Map1& map, Map2& an
 // Runtime assertion check
 // Equivalent to CHECK_TRUE
 
+
+
+
+
+
 struct VerifyTrueAssertionFailure {
     int line;
 };
@@ -259,6 +264,20 @@ void G_erase() {
         map.erase(key1);
 
         VERIFY_TRUE(check_map_equal(map, answer), __LINE__);
+    }
+}
+
+void milestone_7(){
+    HashMap<int,int>hashMap;
+    std::map<int,int> answer;
+    for(int i=10;i<200;++i){
+        hashMap.insert({i,i*i});
+        answer.insert({i,i*i});
+    }
+    for(int i=10;i<200;++i){
+        auto iter1 = hashMap.find(i);
+        auto iter2 = answer.find(i);
+        VERIFY_TRUE((*iter1).second == (*iter2).second,__LINE__);
     }
 }
 
@@ -1007,7 +1026,7 @@ int run_milestone2_tests();
 int run_milestone3_tests();
 int run_milestone5_tests();
 int run_milestone6_tests();
-
+int run_milestone7_tests();
 template <typename T>
 int run_test(const T& test, const string& test_name) {
     try {
@@ -1059,6 +1078,8 @@ int main(){
     cout << endl << "----- Test Harness Summary -----" << endl;
     cout << "Required tests: " << required_pass << "/14 (excluding short answers)" << endl;
     cout << "Optional tests: " << bonus_pass << "/10" << endl << endl;
+
+    bonus_pass +=  run_milestone7_tests();
     if (required_pass <= 7) {
         cout << "Still getting started! " << endl;
     } else if (required_pass <= 9) {
@@ -1220,3 +1241,10 @@ int run_milestone6_tests() {
     return passed;
 }
 
+
+
+int run_milestone7_tests(){
+    int pass = 0;
+    pass += run_test(milestone_7, "milestone_7");
+    return pass;
+}

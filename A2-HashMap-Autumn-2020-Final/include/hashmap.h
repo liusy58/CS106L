@@ -387,6 +387,7 @@ private:
     */
     node_pair find_node(const K& key) const;
 
+
     /* Private member variables */
 
     /*
@@ -526,6 +527,11 @@ public:
                 throw "error!";
             return &(curr_node->value);
         }
+        bool key_equal(const K&key){
+            if(is_end||curr_node== nullptr)
+                return false;
+            return curr_node->value.first == key;
+        }
     };
     class const_iterator :public std::iterator<std::input_iterator_tag,value_type>{
     private:
@@ -558,13 +564,19 @@ public:
         bool operator==(const const_iterator&temp){
             return (is_end&temp.is_end)||(curr_node == temp.curr_node);
         }
-        bool operator!=(const_iterator&temp) {
+        bool operator!=(const_iterator&temp){
             return !((*this)==temp);
         }
         bool operator!=(const const_iterator&temp){
             return !((*this)==temp);
         }
-        value_type& operator*()const{
+        bool key_equal(const K&key){
+            if(!is_end||curr_node== nullptr)
+                return false;
+            return curr_node->value.first == key;
+        }
+
+        const value_type& operator*()const{
             if(curr_node== nullptr)
                 throw "Error! ";
             return curr_node->value;
@@ -603,7 +615,7 @@ public:
             return *this;
         }
 
-        value_type*operator->()const{
+        const value_type*operator->()const{
             if(curr_node == nullptr)
                 throw "error!";
             return &(curr_node->value);
@@ -622,6 +634,12 @@ public:
     const_iterator end()const{
         return const_iterator(this,true);
     }
+    iterator find ( const K& k );
+    const_iterator find ( const K& k ) const;
+
+
+    iterator erase ( const_iterator position );
+    iterator erase ( const_iterator first, const_iterator last );
 
 };
 
@@ -913,6 +931,30 @@ HashMap<K, M, H>::HashMap(interator_input begin,interator_input end) {
         insert(*begin++);
     }
 }
+
+template<typename K, typename M, typename H>
+typename HashMap<K,M,H>::iterator HashMap<K, M, H>::find(const K &k) {
+    for(auto iter = begin();iter!=end();++iter){
+        if(iter.key_equal(k))
+            return iter;
+    }
+    return end();
+}
+template<typename K, typename M, typename H>
+typename HashMap<K,M,H>::const_iterator HashMap<K, M, H>::find(const K &k)const {
+    for(auto iter = begin();iter!=end();++iter){
+        if(iter.key_equal(k))
+            return iter;
+    }
+    return end();
+}
+
+template<typename K, typename M, typename H>
+typename HashMap<K,M,H>::iterator HashMap<K, M, H>::erase(HashMap::const_iterator position) {
+    
+}
+
+
 
 
 

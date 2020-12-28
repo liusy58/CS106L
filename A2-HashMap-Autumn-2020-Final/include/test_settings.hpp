@@ -44,3 +44,5 @@
 #define RUN_TEST_6D 1
 #define RUN_TEST_6E 1
 #define RUN_TEST_6F 1
+
+#define RUN_TEST_7 1
